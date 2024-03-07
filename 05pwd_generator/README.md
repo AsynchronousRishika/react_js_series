@@ -1,8 +1,35 @@
 # React + Vite
+TODAY'S LEARNING
+/**** LABEL TAG 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+/****** <input type="checkbox"  defaultChecked={numberAllowed} id="numberInput"
+              onChange={() => setnumberAllowed((prev) => !prev)} />
+                  LEARN HOW WE CAN USE PREVIOUS VALUE IN  SETNUMBERALLOWED...PREV NAAM KI KUCH BHI LIKH SKTE HAII...
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+/*****     <input type="range" > FOR LENGTH SLIDER 
+
+/*******ONCHANGE EVENT
+
+/****learn usecallback function
+
+
+
+
+/**** useeffect function
+/*** useref function
+
+
+/****
+
+const copypwdtoclipboard=useCallback(()=>{ 
+    window.navigator.clipboard.writeText(password)}, [password])
+      ^      ^
+      |      |____________navigator wale me function mai clipboard mai password write krna hai using writeText()
+      |
+      window (whole browser)
+    copying the pasword to clipword
+
+    /*****  Math.floor(Math.random() * str.length + 1)

@@ -5,7 +5,7 @@ TODAY'S LEARNING
 
 /****** <input type="checkbox"  defaultChecked={numberAllowed} id="numberInput"
               onChange={() => setnumberAllowed((prev) => !prev)} />
-                  LEARN HOW WE CAN USE PREVIOUS VALUE IN  SETNUMBERALLOWED...PREV NAAM KI KUCH BHI LIKH SKTE HAII...
+                  LEARN HOW WE CAN USE PREVIOUS VALUE IN  SETNUMBERALLOWED...PREV NAAM KI  j agah KUCH BHI LIKH SKTE HAII...
 
 
 
@@ -13,13 +13,21 @@ TODAY'S LEARNING
 
 /*******ONCHANGE EVENT
 
-/****learn usecallback function
+/****learned usecallback function
 
 
 
 
 /**** useeffect function
+
+
+
+
 /*** useref function
+
+
+DOM ko directly manipulate krne k liye use krte hai , 
+useState and useCallback s directly manipulate nhi krskte hai
 
 
 /****

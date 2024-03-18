@@ -29,8 +29,10 @@ function App() {
 
 
   }, [length, numberAllowed, charAllowed, setpassword])
- /**************USING USEEFFECT********************************************* */
+ /**************USING USECALLBACK********************************************* */
   const copypwdtoclipboard = useCallback(() => {
+    passwordRef.current?.select();
+    passwordRef.current?.setSelectionRange(0,999);
     window.navigator.clipboard.writeText(password)
   }, [password])
 

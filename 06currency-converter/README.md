@@ -60,7 +60,7 @@ By using 'useEffect', you can ensure that side effects are only executed when ne
 
 
 
-
+ 
 /*************************************
 fetch() ----> takes the url  as argument, returns promise which resolves to response object.
            --> if there are any errors in the request ,then it rejects with the error object.

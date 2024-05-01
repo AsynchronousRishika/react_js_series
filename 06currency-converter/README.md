@@ -74,4 +74,64 @@ the method being named json(), the result is not JSON but is instead the result 
 then((res)=>{res.json()})  - this will return another promise.
 then() ---> takes the callback function as argument.
 
+-------------------------------------------------------
+ inputBox.jsx file
 
+  {currencyOption.map((currency)=>(<option key={currency} value="usd">
+                    usd
+                   </option>))}
+
+   [1. map()](https://www.w3schools.com/react/react_es6_array_methods.asp)  
+   
+   [ 2. map() and keys](https://legacy.reactjs.org/docs/lists-and-keys.html)   
+--------------------------------------------------------
+USEID HOOK
+
+
+
+
+
+--------------------------------------------------------
+<form
+                        onSubmit={(e) => {
+                            e.preventDefault();
+                           
+                        }
+                    >
+[preventdeafult()](https://www.w3schools.com/jsref/event_preventdefault.asp)
+[onsubmit function](https://www.w3schools.com/tags/ev_onsubmit.asp)
+
+--------------------------------------------------------
+
+
+* i got stuck here  * 
+Error: Objects are not valid as a React child (found: object with keys {label, amount, currencyOptions, onCurrencyChange, selectCurrency, onAmountChange}). If you meant to render a collection of children, use an array instead.
+
+ error ocurred in line
+ function InputBox(
+    label,
+    amount,
+    onAmountChange,
+    onCurrencyChange,
+    currencyOption = [],
+    selectCurrency = "usd",
+    amountDisable = false,
+    currencyDisable = false,
+    className = "" )
+
+
+   * here i forgot to use curly bracket 
+    if want to render collections of childrens in react component then i have to pass it as a array *
+
+    * solution *
+
+    function InputBox(
+    {label,
+    amount,
+    onAmountChange,
+    onCurrencyChange,
+    currencyOption = [],
+    selectCurrency = "usd",
+    amountDisable = false,
+    currencyDisable = false,
+    className = "" })

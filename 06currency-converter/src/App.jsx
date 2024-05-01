@@ -10,7 +10,7 @@ function App() {
   const [to,setTo]=useState("inr")
   const[convertedAmt,setconvertedAmt]=useState(0)
   const currencyinfo=useCurrencyInfo(from)
-    const options=Object.keys(currencyinfo)
+  const options=Object.keys(currencyinfo)
 
     const swap=()=>{
       setFrom(to)
@@ -42,8 +42,8 @@ const convert=()=>{
                     <InputBox
                         label="From"
                         amount={amount}
-                        currencyOptions={options}
-                        onCurrencyChange={(currency) => setAmount(amount)}
+                        currencyOption={options}
+                        onCurrencyChange={(currency) => setFrom(currency)}
                         selectCurrency={from}
                         onAmountChange={(amount) => setAmount(amount)}
                     />
@@ -61,7 +61,7 @@ const convert=()=>{
                     <InputBox
                         label="To"
                         amount={convertedAmt}
-                        currencyOptions={options}
+                        currencyOption={options}
                         onCurrencyChange={(currency) => setTo(currency)}
                         selectCurrency={to}
                         amountDisable

@@ -135,3 +135,8 @@ Error: Objects are not valid as a React child (found: object with keys {label, a
     amountDisable = false,
     currencyDisable = false,
     className = "" })
+
+
+    * i got stuck where currency option was not showing in the selector , so the problem is  where i got stucked , i wrote currencyOptions props which  i was passing in child component present in App.jsx, is different to the currencyOption props present in react component (in InputBox.js)   .jbki child componet mai jis naam s bhejte h props ussi naam s react component ya parent component  mai props likhte hai *  
+
+   * after correcting the name  currencyOptions to currencyOption ..options selctor mai dikhne lge phir

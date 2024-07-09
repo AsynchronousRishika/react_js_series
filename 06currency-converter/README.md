@@ -8,7 +8,7 @@ src-> customhook-> usecurrencyinfo.js
 
 1. custom hook can use in-built hooks
 
-2.  custom hook always return an array with at least one
+2. custom hook always return an array with at least one
 
 3. custom hook  is a function that returns either an array or object
 
@@ -107,7 +107,7 @@ USEID HOOK
 * i got stuck here  * 
 Error: Objects are not valid as a React child (found: object with keys {label, amount, currencyOptions, onCurrencyChange, selectCurrency, onAmountChange}). If you meant to render a collection of children, use an array instead.
 
- error ocurred in line
+ * error ocurred in line
  function InputBox(
     label,
     amount,

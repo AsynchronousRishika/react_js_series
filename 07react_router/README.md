@@ -11,7 +11,10 @@ REACT ROUTER
 5. GO THROUGH GITHUB FILE
 6. go through USER file
 7. go through LaYOUT FILE
-8.  go through main.jsx file 
+8.  go through main.jsx file
+https://youtu.be/XGUjvIn1Icg?si=v3TrDNajhPyBNWZS
+https://youtu.be/VJov5QWEKE4?si=NCPbuf9BYZuHjJoX
+ 
 9.  to use router in application we use routerprovider from react-router-dom
 10.  export default function About() 
 
